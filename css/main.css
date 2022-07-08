@@ -14,8 +14,9 @@ video, img {
   width: 36px;
   height: 36px;
 }
-.benefits-icon {
+.benefits-icon, .social-icon {
   font-size: 24px;
+  color: #DF7861;
 }
 .carousel {
   height: 400px;
@@ -24,6 +25,14 @@ video, img {
   width: auto;
   height: 100%;
   object-fit: cover;
+}
+.btn {
+  background-color: #DF7861;
+  color: white;
+}
+.discount-bar {
+  background-color: white;
+  color: #DF7861;
 }
 
  /* Extra small devices (portrait phones, less than 576px) */
