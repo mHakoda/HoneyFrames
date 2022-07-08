@@ -31,8 +31,15 @@ video, img {
   color: white;
 }
 .discount-bar {
-  background-color: white;
+  background-color: #F7F6F2;
   color: #DF7861;
+}
+.bi-translate {
+  display: flex;
+  align-items: center;
+}
+.bg-add {
+  background-color: #F7F6F2;
 }
 
  /* Extra small devices (portrait phones, less than 576px) */
