@@ -8,16 +8,17 @@ video, img {
   padding-left: .5rem;
 }
 .navbar-brand {
-  padding-left: 1rem;
+  padding-left: .6rem;
 }
 .logo {
-  width: 40px;
+  width: 36px;
+  height: 36px;
 }
 .benefits-icon {
   font-size: 24px;
 }
 .carousel {
-  height: 300px;
+  height: 400px;
 }
 .carousel-item img, .carousel-item video {
   width: auto;

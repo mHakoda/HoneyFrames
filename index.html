@@ -22,14 +22,14 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
           <div class="navbar-nav brand">
-            <img class="logo" src="/images/logo.png" alt="Osov Bee Honey logo">
+            <img class="logo align-self-center" src="/images/logo.png" alt="Osov Bee Honey logo">
             <a class="navbar-brand" href="/">Osov Bee Honey</a>
           </div>
           <ul class="navbar-nav">
@@ -116,111 +116,108 @@
         </div>
       </div>
     </section>
-    <section class="py-5">
-      <h4 class="text-center pb-4">Обзоры и отзывы</h2>
-      <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="/images/review01.jpeg" class="d-block w-100 rounded" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="/images/review02.jpeg" class="d-block w-100 rounded" alt="...">
-            </div>
-            <div class="carousel-item bg-light rounded">
-              <img src="/images/review04.jpeg" class="d-block w-50 mx-auto bg-light" alt="..." style="object-fit: contain;">
-            </div>
-            <div class="carousel-item bg-light rounded">
-              <video class="d-block w-50 bg-light mx-auto" src="/videos/review01.mp4" controls poster="/images/review08.jpeg"></video>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
         </div>
-        <!-- <div class="overflow-auto d-flex flex-row align-items-center">
-          <div class="review-block px-2">
-            <img class="rounded" src="/images/review01.jpeg" alt="Сотовый мед">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/review01.jpeg" class="d-block w-100" alt="..." style="object-position: 0 70%;">
           </div>
-          <div class="review-block px-2">
-            <img class="rounded" src="/images/review02.jpeg" alt="Сотовый мед">
+          <div class="carousel-item">
+            <img src="/images/review02.jpeg" class="d-block w-100" alt="...">
           </div>
-          <div class="review-block px-2">
-            <img class="rounded" src="/images/review03.jpeg" alt="Сотовый мед">
+          <div class="carousel-item bg-light">
+            <img src="/images/review03.jpeg" class="d-block w-50 mx-auto bg-light" alt="..." style="object-fit: contain;">
           </div>
-          <div class="review-block px-2">
-            <img class="bg-light rounded border" src="/images/review04.jpeg" alt="Сотовый мед">
+          <div class="carousel-item">
+            <img src="/images/review04.jpeg" class="d-block w-100" alt="...">
           </div>
-          <div class="review-block px-2">
-            <video class="bg-dark rounded" src="/videos/review01.mp4" controls poster="/images/review08.jpeg"></video>
+          <div class="carousel-item">
+            <img src="/images/review05.jpeg" class="d-block w-100" alt="..." style="object-position: 0 30%;">
           </div>
-          <div class="review-block px-2">
-            <img class="rounded" src="/images/review05.jpeg" alt="Сотовый мед">
+          <div class="carousel-item">
+            <img src="/images/review06.jpeg" class="d-block w-100" alt="...">
           </div>
-          <div class="review-block px-2">
-            <img class="rounded" src="/images/review06.jpeg" alt="Сотовый мед">
+          <div class="carousel-item bg-light">
+            <video class="d-block w-100 bg-light mx-auto" src="/videos/review01.mp4" controls poster="/images/review08.jpeg"></video>
           </div>
-          <div class="review-block px-2">
-            <img class="rounded" src="/images/review07.jpeg" alt="Сотовый мед">
-          </div>
-        </div> -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
-    <section class="py-5 bg-light">
+    <section class="py-5">
       <div class="container">
         <div class="row pt-2">
           <div class="col mb-2">
             <div class="card h-100">
-              <img loading="lazy" src="/images/web/KingApdo/KingApdo1.jpeg" class="" alt="King Apdo website">
-              <h5 class="card-header border-top">Начальный комплект</h5>
+                <img loading="lazy" src="/images/product01.jpeg" class="" alt="">
+                <div class="position-relative">
+                  <p class="card-text position-absolute top-50 end-0 translate-middle-y pe-3"><small class="text-muted">500 грн</small></p>
+                  <h6 class="card-header border-top">100 штук</h6>
+                </div>
               <div class="card-body">
-                <p class="card-text"></p>
-                <p class="card-text"><small class="text-muted"></small></p>
                 <a href="/web/king-apdo.html" class="btn btn-primary me-2" tabindex="0">Купить</a>
               </div>
             </div>
           </div>
           <div class="col mb-2">
             <div class="card h-100">
-              <img loading="lazy" src="/images/web/KingApdo/KingApdo1.jpeg" class="" alt="King Apdo website">
-              <h5 class="card-header border-top">Малый комплект</h5>
+              <img loading="lazy" src="/images/product02.jpeg" class="" alt="">
+              <div class="position-relative">
+                <p class="card-text position-absolute top-50 end-0 translate-middle-y pe-3"><small class="text-muted">1000 грн</small></p>
+                <h6 class="card-header border-top">200 штук</h6>
+              </div>
               <div class="card-body">
-                <p class="card-text"></p>
-                <p class="card-text"><small class="text-muted"></small></p>
                 <a href="/web/king-apdo.html" class="btn btn-primary me-2" tabindex="0">Купить</a>
               </div>
             </div>
           </div>
           <div class="col mb-2">
             <div class="card h-100">
-              <img loading="lazy" src="/images/web/SayMe/SayMe1.png" class="" alt="Say Me website">
-              <h5 class="card-header border-top">Средний комплект</h5>
+              <div class="position-relative">
+                <div class="position-absolute top-0 start-0 m-3 p-2 bg-light rounded-circle">
+                  <p class="card-text">- 5%</p>
+                </div>
+                <img loading="lazy" src="/images/product03.jpg" class="" alt="">
+              </div>
+              <div class="position-relative">
+                <p class="card-text position-absolute top-50 end-0 translate-middle-y pe-3"><small class="text-muted">2375 грн</small></p>
+                <h6 class="card-header border-top">500 штук</h6>
+              </div>
               <div class="card-body">
-                <p class="card-text"></p>
-                <p class="card-text"><small class="text-muted"></small></p>
                 <a href="/web/say-me.html" class="btn btn-primary me-2 " tabindex="0">Купить</a>
               </div>
             </div>
           </div>
           <div class="col mb-2">
             <div class="card h-100">
-              <img loading="lazy" src="/images/web/SayMe/SayMe1.png" class="" alt="Say Me website">
-              <h5 class="card-header border-top">Большой комплект</h5>
+              <div class="position-relative">
+                <div class="position-absolute top-0 start-0 m-3 p-2 bg-light rounded-circle">
+                  <p class="card-text">- 10%</p>
+                </div>
+                <img loading="lazy" src="/images/product04.jpg" class="" alt="">
+              </div>
+              <div class="position-relative">
+                <p class="card-text position-absolute top-50 end-0 translate-middle-y pe-3"><small class="text-muted">4500 грн</small></p>
+                <h6 class="card-header border-top">1000 штук</h6>
+              </div>
               <div class="card-body">
-                <p class="card-text"></p>
-                <p class="card-text"><small class="text-muted"></small></p>
                 <a href="/web/say-me.html" class="btn btn-primary me-2 " tabindex="0">Купить</a>
               </div>
             </div>
