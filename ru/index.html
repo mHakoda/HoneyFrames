@@ -27,22 +27,24 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-add">
+    <nav class="navbar navbar-expand-lg navbar-light bg-add py-3 py-md-2">
       <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <a class="navbar-brand me-0 d-lg-none" href="/">Osov Bee Honey</a>
+        <img class="logo align-self-center d-lg-none" src="/images/logo.png" alt="Osov Bee Honey logo">
         <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
           <div class="navbar-nav brand">
-            <img class="logo align-self-center" src="/images/logo.png" alt="Osov Bee Honey logo">
-            <a class="navbar-brand" href="/">Osov Bee Honey</a>
+            <img class="logo align-self-center d-none d-lg-flex" src="/images/logo.png" alt="Osov Bee Honey logo">
+            <a class="navbar-brand ms-3 d-none d-lg-flex" href="/">Osov Bee Honey</a>
           </div>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav my-3 my-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/ru/">Главная</a>
+              <a class="nav-link active" aria-current="page" href="/">Главная</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/ru/payment-and-delivery.html">Оплата и доставка</a>
+              <a class="nav-link" href="/payment-and-delivery.html">Оплата и доставка</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/ru/about.html">О нас</a>
@@ -51,28 +53,30 @@
               <a class="nav-link" href="/ru/contact.html">Контакты</a>
             </li>
           </ul>
-          <div class="navbar-nav">
-            <i class="bi bi-translate px-3"></i>
-            <select class="form-select language-switcher border-0">
-              <option value="UA">Украинский</option>
-              <option selected value="RU">Русский</option>
-            </select>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-2 navbar-nav justify-content-end">
+            <div class="d-flex">
+              <i class="bi bi-translate pe-3"></i>
+              <select class="form-select language-switcher border-0">
+                <option value="UA">Украинский</option>
+                <option selected value="RU">Русский</option>
+              </select>
+            </div>
           </div>
         </div>
       </div>
     </nav>
-    <section class="py-5">
+    <section class="py-4 py-md-5">
       <div class="container">
         <div class="row">
-          <div class="col-6 align-self-center">
+          <div class="col-12 col-md-6 align-self-center">
             <h1>Рамки для сотового меда</h1>
             <p>Мы запустили производство мини рамок для сотового меда, это будет интересно как опытным пчеловодам так и начинающим.</p>
             <p>Мы сами используем их на собственной пасеке уже несколько сезонов подряд, за это время довели их до ума и улучшили конструкцию.</p>
             <button type="button" class="btn mt-2">Узнать подробности</button>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-md-6 pt-4 pt-md-0">
             <div class="row">
-              <div class="col-7 ps-4">
+              <div class="col-7 ps-md-4">
                 <img class="rounded" src="/images/combhoneyframes01.jpg" alt="Сотовый мед">
               </div>
               <div class="col d-flex flex-column">
@@ -92,35 +96,35 @@
         </div>
       </div>
     </section>
-    <section class="py-5 bg-add">
+    <section class="py-4 py-md-5 bg-add">
       <div class="container">
         <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5">
-          <div class="col">
-            <div class="rounded bg-white p-4 text-center">
+          <div class="col py-2 pt-lg-0">
+            <div class="rounded bg-white p-3 p-md-4 py-4 text-center">
               <i class="bi bi-tree benefits-icon"></i>
               <h6 class="pt-4">Рамка из эко древесины</h6>
             </div>
           </div>
-          <div class="col">
-            <div class="rounded bg-white p-4 text-center">
+          <div class="col py-2 pt-lg-0">
+            <div class="rounded bg-white p-3 p-md-4 py-4 text-center">
               <i class="bi bi-aspect-ratio benefits-icon"></i>
               <h6 class="pt-4">Размеры 11,5 см х 6,5 см х 3,5 см</h6>
             </div>
           </div>
-          <div class="col">
-            <div class="rounded bg-white p-4 text-center">
+          <div class="col py-2 pt-lg-0">
+            <div class="rounded bg-white p-3 p-md-4 py-4 text-center">
               <i class="bi bi-arrows-collapse benefits-icon"></i>
               <h6 class="pt-4">Толщина материала 1,3 мм</h6>
             </div>
           </div>
-          <div class="col">
-            <div class="rounded bg-white p-4 text-center">
+          <div class="col py-2 pt-lg-0">
+            <div class="rounded bg-white p-3 p-md-4 py-4 text-center">
               <i class="bi bi-puzzle benefits-icon"></i>
               <h6 class="pt-4">Подходит для рамки 145 мм</h6>
             </div>
           </div>
-          <div class="col">
-            <div class="rounded bg-white p-4 text-center">
+          <div class="col py-2 pt-lg-0">
+            <div class="rounded bg-white p-3 p-md-4 py-4 text-center">
               <i class="bi bi-scissors benefits-icon"></i>
               <h6 class="pt-4">Прорези для вощины</h6>
             </div>
@@ -168,19 +172,19 @@
         </button>
       </div>
     </section>
-    <section class="py-5 bg-add">
+    <section class="py-4 py-md-5 bg-add">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-4">
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4">
             <img class="rounded"src="/images/feedback01.jpeg" alt="Отзыв покупателя рамок для сотового меда">
           </div>
         </div>
       </div>
     </section>
-    <section class="py-5">
+    <section class="py-4 py-md-5">
       <div class="container">
-        <div class="row">
-          <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+          <div class="col py-2 pt-lg-0">
             <div class="card h-100 border-0">
                 <img loading="lazy" src="/images/product01.jpeg" class="rounded-top" alt="Рамки для сотового меда в разобранном состоянии">
                 <div class="position-relative">
@@ -192,7 +196,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col py-2 pt-lg-0">
             <div class="card h-100 border-0">
               <img loading="lazy" src="/images/product02.jpeg" class="rounded-top" alt="Рамки для сотового меда">
               <div class="position-relative">
@@ -204,7 +208,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col py-2 pt-lg-0">
             <div class="card h-100 border-0">
               <div class="position-relative">
                 <div class="discount-bar position-absolute top-0 start-0 m-3 p-2 rounded-circle">
@@ -221,7 +225,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col py-2 pt-lg-0">
             <div class="card h-100 border-0">
               <div class="position-relative">
                 <div class="discount-bar position-absolute top-0 start-0 m-3 p-2 rounded-circle">
@@ -241,22 +245,22 @@
         </div>
       </div>
     </section>
-    <section class="py-5 bg-add">
+    <section class="py-4 py-md-5 bg-add">
       <div class="container">
         <div class="row">
-          <div class="col align-self-center">
+          <div class="col-12 col-md-6 align-self-center">
             <h1>Как собрать рамку для сотового меда?</h5>
             <p>Мини рамка изготовлена из эко древесины, породы Бук, Ясень. Комплект поставляется в разобранном виде. Для сборки рамки нужно скрепить планки между собой и встроить ее в уличную рамку как показано на видео.</p>
           </div>
-          <div class="col">
-            <iframe class="rounded" width="560" height="315" src="https://www.youtube.com/embed/3JPvFhVURPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="col-12 col-md-6 pt-2 pt-md-0">
+            <iframe class="rounded" width="100%" height="315" src="https://www.youtube.com/embed/3JPvFhVURPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </section>
-    <footer class="pt-5">
+    <footer class="pt-4 pt-md-5">
       <div class="container">
-        <div class="row">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">
           <div class="col">
             <h5>Osov Bee Honey</h5>
             <p>Натуральные продукты для здоровья и красоты из нашей пасеки в Берегомете</p>
@@ -267,7 +271,7 @@
             </ul>
           </div>
 
-          <div class="col d-flex justify-content-center">
+          <div class="col d-flex pt-3 pt-sm-0">
             <div class="navbar-light">
               <h5>Меню</h5>
               <ul class="navbar-nav flex-column">
@@ -279,7 +283,7 @@
             </div>
           </div>
 
-          <div class="col d-flex justify-content-center">
+          <div class="col d-flex pt-3 pt-md-0">
             <div class="">
               <h5>Контакты</h5>
               <ul class="nav flex-column">
