@@ -4,12 +4,6 @@ video, img {
   height: auto;
   width: 100%;
 }
-.brand {
-  padding-left: .5rem;
-}
-.navbar-brand {
-  padding-left: .6rem;
-}
 .logo {
   width: 36px;
   height: 36px;
@@ -55,4 +49,8 @@ video, img {
 @media (min-width: 992px) and (max-width: 1199.98px) { ... }
 
  /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+  footer .col:nth-child(2), footer .col:nth-child(3) {
+    justify-content: center;
+  }
+}
