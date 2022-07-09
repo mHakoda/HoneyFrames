@@ -1,5 +1,9 @@
 /* All sizes */
 
+a {
+  text-decoration: none;
+  color: #DF7861;
+}
 video, img {
   height: auto;
   width: 100%;
