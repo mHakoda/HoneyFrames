@@ -29,11 +29,11 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-add py-3 py-md-2">
       <div class="container">
+        <img class="logo align-self-center d-lg-none" src="/images/logo.png" alt="Osov Bee Honey logo">
+        <a class="navbar-brand me-0 d-lg-none" href="/">Osov Bee Honey</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand me-0 d-lg-none" href="/">Osov Bee Honey</a>
-        <img class="logo align-self-center d-lg-none" src="/images/logo.png" alt="Osov Bee Honey logo">
         <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
           <div class="navbar-nav brand">
             <img class="logo align-self-center d-none d-lg-flex" src="/images/logo.png" alt="Osov Bee Honey logo">
@@ -72,7 +72,8 @@
             <h1>Рамки для сотового меда</h1>
             <p>Мы запустили производство мини рамок для сотового меда, это будет интересно как опытным пчеловодам так и начинающим.</p>
             <p>Мы сами используем их на собственной пасеке уже несколько сезонов подряд, за это время довели их до ума и улучшили конструкцию.</p>
-            <button type="button" class="btn mt-2">Узнать подробности</button>
+            <h5><a href="tel:+380684284425" target="_blank" tabindex="0">+380 68 428 44 25</a></h5>
+            <p>Пн – Пт: 09:00 – 18:00<br>Сб – Вс: выходные</p>
           </div>
           <div class="col-12 col-md-6 pt-4 pt-md-0">
             <div class="row">
@@ -181,66 +182,70 @@
         </div>
       </div>
     </section>
-    <section class="py-4 py-md-5">
+    <section class="py-4 py-md-5 overflow-hidden">
       <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
-          <div class="col py-2 pt-lg-0">
-            <div class="card h-100 border-0">
-                <img loading="lazy" src="/images/product01.jpeg" class="rounded-top" alt="Рамки для сотового меда в разобранном состоянии">
-                <div class="position-relative">
-                  <p class="card-text position-absolute top-50 end-0 translate-middle-y pe-3"><small class="text-muted">500 грн</small></p>
-                  <h6 class="card-header border-0 rounded-bottom">100 штук</h6>
-                </div>
-              <div class="card-body">
-                <a href="" class="btn me-2" tabindex="0">Заказать</a>
-              </div>
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col-12 col-lg-6">
+            <div class="mb-3">
+              <h5 class="">Комплект рамок для сотового меда</h5>
             </div>
+            <img loading="lazy" src="/images/product03.jpg" class="product-img rounded" alt="Рамки для сотового меда пример сборки">
           </div>
-          <div class="col py-2 pt-lg-0">
-            <div class="card h-100 border-0">
-              <img loading="lazy" src="/images/product02.jpeg" class="rounded-top" alt="Рамки для сотового меда">
-              <div class="position-relative">
-                <p class="card-text position-absolute top-50 end-0 translate-middle-y pe-3"><small class="text-muted">1000 грн</small></p>
-                <h6 class="card-header border-0 rounded-bottom">200 штук</h6>
+          <div class="col-12 col-lg-4 pt-4 pt-lg-0 mx-auto">
+            <form class="m-0" action="/thanks.html" method="post">
+              <div class="mb-3">
+                <h5>Оформление заказа</h5>
               </div>
-              <div class="card-body">
-                <a href="" class="btn me-2" tabindex="0">Заказать</a>
-              </div>
-            </div>
-          </div>
-          <div class="col py-2 pt-lg-0">
-            <div class="card h-100 border-0">
-              <div class="position-relative">
-                <div class="discount-bar position-absolute top-0 start-0 m-3 p-2 rounded-circle">
-                  <p class="card-text">- 5%</p>
+              <div class="my-3">
+                <label for="kit" class="form-label">Выберите комплект</label>
+                <div id="kit" class="row row-cols-2">
+                  <div class="col">
+                    <div value="100" class="btn product-btn product-active w-100 bg-add rounded py-3">
+                      <h6 class="text-center">100 штук</h6>
+                      <p class="text-center m-0"><small class="text-muted">500 грн</small></p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div value="200" class="btn product-btn w-100 bg-add rounded py-3">
+                      <h6 class="text-center">200 штук</h6>
+                      <p class="text-center m-0"><small class="text-muted">1000 грн</small></p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div value="500" class="btn product-btn w-100 position-relative bg-add rounded py-3 mt-4">
+                      <div class="discount-bar position-absolute p-2 rounded-circle">
+                        <p class="card-text">- 5%</p>
+                      </div>
+                      <h6 class="text-center">500 штук</h6>
+                      <p class="text-center m-0"><small class="text-muted">2375 грн</small></p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div value="1000" class="btn product-btn w-100 position-relative bg-add rounded py-3 mt-4">
+                      <div class="discount-bar position-absolute p-2 rounded-circle">
+                        <p class="card-text">- 10%</p>
+                      </div>
+                      <h6 class="text-center">1000 штук</h6>
+                      <p class="text-center m-0"><small class="text-muted">4500 грн</small></p>
+                    </div>
+                  </div>
                 </div>
-                <img loading="lazy" src="/images/product03.jpg" class="rounded-top" alt="Рамки для сотового меда пример складывания">
               </div>
-              <div class="position-relative">
-                <p class="card-text position-absolute top-50 end-0 translate-middle-y pe-3"><small class="text-muted">2375 грн</small></p>
-                <h6 class="card-header border-0 rounded-bottom">500 штук</h6>
+
+              <div class="my-3">
+                <label for="full-name" class="form-label">Ваша фамилия и имя</label>
+                <input type="text" class="form-control bg-add" id="full-name" maxlength="30" required>
               </div>
-              <div class="card-body">
-                <a href="" class="btn me-2 " tabindex="0">Заказать</a>
+              <div class="my-3">
+                <label for="phone" class="form-label">Номер телефона</label>
+                <input type="tel" class="form-control bg-add" id="phone" aria-describedby="phone" maxlength="30" required>
               </div>
-            </div>
-          </div>
-          <div class="col py-2 pt-lg-0">
-            <div class="card h-100 border-0">
-              <div class="position-relative">
-                <div class="discount-bar position-absolute top-0 start-0 m-3 p-2 rounded-circle">
-                  <p class="card-text">- 10%</p>
-                </div>
-                <img loading="lazy" src="/images/product04.jpg" class="rounded-top" alt="Ящик рамок для сотового меда для отправки">
+              <div class="my-3 form-check">
+                <input type="checkbox" class="form-check-input mt-2 bg-add" id="checkbox" required>
+                <label class="form-text" for="checkbox">Я согласен с условиями <a href="/payment-and-delivery.html" target="_blank" tabindex="0">Оплаты и доставки.</a></label>
               </div>
-              <div class="position-relative">
-                <p class="card-text position-absolute top-50 end-0 translate-middle-y pe-3"><small class="text-muted">4500 грн</small></p>
-                <h6 class="card-header border-0 rounded-bottom">1000 штук</h6>
-              </div>
-              <div class="card-body">
-                <a href="" class="btn me-2 " tabindex="0">Заказать</a>
-              </div>
-            </div>
+              <button id="submit" type="submit" class="btn w-100" tabindex="0">Заказать</button>
+            </form>
           </div>
         </div>
       </div>
@@ -249,7 +254,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 align-self-center">
-            <h1>Как собрать рамку для сотового меда?</h5>
+            <h1>Как собрать рамку для сотового меда?</h1>
             <p>Мини рамка изготовлена из эко древесины, породы Бук, Ясень. Комплект поставляется в разобранном виде. Для сборки рамки нужно скрепить планки между собой и встроить ее в уличную рамку как показано на видео.</p>
           </div>
           <div class="col-12 col-md-6 pt-2 pt-md-0">
@@ -307,6 +312,7 @@
     <!-- Main JS -->
     <script src="/js/main.js" charset="utf-8"></script>
     <script src="/js/languageSwitcher.js" charset="utf-8"></script>
+    <script src="/js/form.js" charset="utf-8"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
