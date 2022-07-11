@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+            http://www.w3.org/1999/xhtml
+            http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd">
+
+
+<url>
+  <loc>https://www.honeyframe.store/</loc>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://www.honeyframe.store/ru/" />
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.honeyframe.store/" />
+  <lastmod>2022-07-11T08:01:25+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.honeyframe.store/payment-and-delivery.html</loc>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://www.honeyframe.store/ru/payment-and-delivery.html" />
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.honeyframe.store/payment-and-delivery.html" />
+  <lastmod>2022-07-11T08:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.honeyframe.store/about.html</loc>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://www.honeyframe.store/ru/about.html" />
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.honeyframe.store/about.html" />
+  <lastmod>2022-07-11T08:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.honeyframe.store/contact.html</loc>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://www.honeyframe.store/ru/contact.html" />
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.honeyframe.store/contact.html" />
+  <lastmod>2022-07-11T08:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
