@@ -270,7 +270,7 @@
               </div>
               <div class="my-3">
                 <label for="phone" class="form-label">Номер телефону</label>
-                <input type="tel" class="form-control bg-add" id="phone" aria-describedby="phone" maxlength="30" required>
+                <input type="tel" class="form-control bg-add" id="phone" aria-describedby="phone" pattern="[\d]{10,12}" minlength="10" maxlength="12" required>
               </div>
               <div class="my-3 form-check">
                 <input type="checkbox" class="form-check-input mt-2 bg-add" id="checkbox" required>
