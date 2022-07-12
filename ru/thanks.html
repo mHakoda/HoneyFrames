@@ -48,6 +48,12 @@
     <!-- End Meta Pixel Code -->
   </head>
   <body>
+    <script>
+      fbq('track', 'Lead', {
+        value: localStorage.kit,
+        currency: 'UAH'
+      });
+    </script>
     <nav class="navbar navbar-expand-lg navbar-light bg-add py-3 py-md-2">
       <div class="container">
         <a class="align-self-center" href="/ru/"><img class="logo d-lg-none" src="/images/logo.png" alt="Osov Bee Honey logo"></a>
