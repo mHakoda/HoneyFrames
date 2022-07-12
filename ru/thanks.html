@@ -35,7 +35,11 @@
       t.src=v;s=b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script',
       'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '287904928481966');
+      fbq('init', '287904928481966', {
+        fn: localStorage.firstName,
+        ln: localStorage.lastName,
+        ph: localStorage.phone
+      });
       fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"

@@ -1,1 +1,57 @@
-function _0x3a38(){var _0x18db00=['703288rXquoX','162764zOELDj','ready','#submit','219482LHIwhT','/sendMessage','location','Lead','18cRDbqg','attr','5511925147:AAGcG2_hX1_hdWacymE6uUKAdbxIRj8JrFQ','value','/ru/thanks.html','indexOf','99EHDovM','action','140LWsYQP','370949601','UAH','form','\x0a\x0a<b>Прізвище\x20та\x20ім\x27я</b>\x0a','.product-active','317728GzUUut','ajax','\x0a\x0a<b>Номер\x20телефону</b>\x0a','723033APdsuz','1esVMtj','val','log','submit','language','track','#checkbox','#phone','toLowerCase','493867YpGLGO','922070CKNRQa','slice','/thanks.html'];_0x3a38=function(){return _0x18db00;};return _0x3a38();}var _0x47a859=_0x58b8;function _0x58b8(_0x36ab40,_0x47f879){var _0x3a388e=_0x3a38();return _0x58b8=function(_0x58b8b0,_0x52a488){_0x58b8b0=_0x58b8b0-0x159;var _0x4ad96c=_0x3a388e[_0x58b8b0];return _0x4ad96c;},_0x58b8(_0x36ab40,_0x47f879);}(function(_0xdbe29e,_0x1f091a){var _0x10a9a7=_0x58b8,_0x4e4fcb=_0xdbe29e();while(!![]){try{var _0x380a6b=-parseInt(_0x10a9a7(0x17e))/0x1*(-parseInt(_0x10a9a7(0x168))/0x2)+parseInt(_0x10a9a7(0x17d))/0x3+-parseInt(_0x10a9a7(0x164))/0x4+-parseInt(_0x10a9a7(0x161))/0x5+-parseInt(_0x10a9a7(0x16c))/0x6*(-parseInt(_0x10a9a7(0x165))/0x7)+-parseInt(_0x10a9a7(0x17a))/0x8*(parseInt(_0x10a9a7(0x172))/0x9)+-parseInt(_0x10a9a7(0x174))/0xa*(-parseInt(_0x10a9a7(0x160))/0xb);if(_0x380a6b===_0x1f091a)break;else _0x4e4fcb['push'](_0x4e4fcb['shift']());}catch(_0x1d44a6){_0x4e4fcb['push'](_0x4e4fcb['shift']());}}}(_0x3a38,0x3d832),$(document)[_0x47a859(0x166)](function(){var _0x970a5c=_0x47a859,_0x477ba4=btoa(_0x970a5c(0x16e)),_0xc45c16=btoa(_0x970a5c(0x175)),_0x5013cc=window[_0x970a5c(0x16a)]['pathname'];$(_0x970a5c(0x167))['on']('click',function(){var _0x3fa628=_0x970a5c;$('#full-name')[_0x3fa628(0x17f)]()&&$('#phone')[_0x3fa628(0x17f)]()&&$(_0x3fa628(0x15d))['is'](':checked')&&$[_0x3fa628(0x17b)]({'url':'https://api.telegram.org/bot'+atob(_0x477ba4)+_0x3fa628(0x169),'method':'POST','data':{'chat_id':atob(_0xc45c16),'parse_mode':'HTML','text':'\x0a<b><a\x20href=\x22https://www.honeyframe.store\x22>Honey\x20Frame</a>\x20Product\x20Form</b>\x0a\x0a<b>Комплект</b>\x0a'+$('.product-active')['attr'](_0x3fa628(0x16f))[_0x3fa628(0x162)](0x0,0x1e)+_0x3fa628(0x178)+$('#full-name')[_0x3fa628(0x17f)]()[_0x3fa628(0x162)](0x0,0x1e)+_0x3fa628(0x17c)+$(_0x3fa628(0x15e))[_0x3fa628(0x17f)]()[_0x3fa628(0x162)](0x0,0x1e)+'\x0a'},'async':![],'success':function(_0x10c19f,_0x4e60d5){var _0x1f3797=_0x3fa628;_0x5013cc[_0x1f3797(0x171)]('/')>=0x0||localStorage[_0x1f3797(0x15b)][_0x1f3797(0x15f)]()=='ua'?$(_0x1f3797(0x177))[_0x1f3797(0x16d)](_0x1f3797(0x173),_0x1f3797(0x163)):$(_0x1f3797(0x177))['attr'](_0x1f3797(0x173),_0x1f3797(0x170)),fbq(_0x1f3797(0x15c),_0x1f3797(0x16b),{'value':$(_0x1f3797(0x179))[_0x1f3797(0x16d)](_0x1f3797(0x16f)),'currency':_0x1f3797(0x176)}),$('form')[_0x1f3797(0x15a)]();},'error':function(_0x51b6c9,_0x2932df,_0x2ae661){var _0x3f2303=_0x3fa628;console[_0x3f2303(0x159)](_0x51b6c9),console[_0x3f2303(0x159)](_0x2932df),console['log'](_0x2ae661);}});});}));
+$(document).ready(function() {
+  // Capture From with Telegram Bot
+
+  var tToken = btoa("5511925147:AAGcG2_hX1_hdWacymE6uUKAdbxIRj8JrFQ")
+  var chatID = btoa("370949601")
+  var pathname = window.location.pathname
+
+  $("#submit").on("click", function() {
+
+    if ($("#full-name").val() && $("#phone").val() && $("#checkbox").is(":checked")) {
+      $.ajax({
+        url: `https://api.telegram.org/bot${atob(tToken)}/sendMessage`,
+        method:'POST',
+        data:{
+          chat_id: atob(chatID),
+          parse_mode: "HTML",
+          text:
+`
+<b><a href="https://www.honeyframe.store">Honey Frame</a> Product Form</b>
+
+<b>Комплект</b>
+${$('.product-active').attr("value").slice(0, 30)}
+
+<b>Прізвище та ім'я</b>
+${$('#first-name').val().slice(0, 30) $('#last-name').val().slice(0, 30)}
+
+<b>Номер телефону</b>
+${$('#phone').val().slice(0, 30)}
+`
+        },
+        async: false,
+        success: function (data, status) {
+          localStorage.kit = $('.product-active').attr("value").slice(0, 30)
+          localStorage.firstName = $('#first-name').val().slice(0, 30)
+          localStorage.lastName = $('#last-name').val().slice(0, 30)
+          localStorage.phone = $('#phone').val().replace(/[^\d]/g, '').slice(0, 30)
+
+          if (pathname.indexOf("/") >= 0 || localStorage.language.toLowerCase() == "ua") {
+            $("form").attr('action', '/thanks.html');
+          } else {
+            $("form").attr('action', '/ru/thanks.html');
+          }
+          fbq('track', 'Lead', {
+            value: localStorage.kit,
+            currency: 'UAH',
+          });
+          $("form").submit();
+        },
+        error: function (xhr, desc, err) {
+          console.log(xhr)
+          console.log(desc)
+          console.log(err);
+        }
+      });
+    }
+  });
+});
